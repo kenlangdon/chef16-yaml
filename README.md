@@ -1,20 +1,30 @@
-# chef16-yaml
+# Chef 16 Yaml Example
 
-An example of how to use yaml recipes
+## An example of how to use yaml recipes
 
 2020-05-05 - Workaround for kitchen to work while bug is being addressed:
 
-$ touch recipes/default.rb
-$ chef install
+`touch recipes/default.rb`
+
+`chef install`
+
 Building policy chef16-yaml
+
 Expanded run list: recipe[chef16-yaml::default]
+
 Caching Cookbooks...
+
 Installing chef16-yaml >= 0.0.0 from path
 
+
 Lockfile written to /Users/klangdon/kenlangdon/chef16-yaml/Policyfile.lock.json
+
 Policy revision id: 217aafdf578494c95b18539b88c0b2fb2aa133a90d5bb44f1bb45b861ba06b97
-$ rm recipes/default.rb
-$ kitchen converge
+
+`rm recipes/default.rb`
+
+`kitchen converge`
+
 
 ```
 -----> Starting Test Kitchen (v2.4.0)
