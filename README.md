@@ -9,10 +9,13 @@
 3. Clone this repo
 4. Try out the yaml that's included in the recipes folder (installs and starts httpd with a "Hello World" index.html) or modify it to use other [resources](https://docs.chef.io/resources/)
 
-Once you're ready to try it, change into the repo's root where the kitchen.yml is found and ...
+To use the kitchen.yml I've included you also need [vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - You could also alter the kitchen.yml to use one of the other [Kitchen Drivers](https://kitchen.ci/docs/drivers/)
+
+Once you're ready to try it, change into the repo's root where the kitchen.yml is found and run ...
 
 `kitchen converge`
 
+and you should see something similar to this...
 
 ```
 -----> Starting Test Kitchen (v2.5.1)
